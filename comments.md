@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/20566710/overflowhidden-displayinline-block-moves-text-upwards

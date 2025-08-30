@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Poppins/Poppins-Regular.ttf') format('truetype'),
+       url('./Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Poppins/Poppins-Bold.ttf') format('truetype'),
+       url('./Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: #f2c9a0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1;
+  z-index: 101;
+}
+
+.responsive-font-sizing {
+  font-size: 5rem;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .responsive-font-sizing {
+    font-size: 3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .responsive-font-sizing {
+    font-size: 4rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .responsive-font-sizing {
+    font-size: 5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .responsive-font-sizing {
+    font-size: 6rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .responsive-font-sizing {
+    font-size: 7rem;
+  }
+} 
+
+.hero-text > span {
+  display: inline-block;
+}
+
+.H {
+  transform-origin: top;
+}
+
+.clip {
+  overflow: hidden;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+  display: block;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
