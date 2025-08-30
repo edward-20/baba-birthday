@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
   tl.to(".Maceon", {
     duration: 1,
-    scrambleText: "Maceon!"
+    scrambleText: "Baba!"
   })
   tl.from(".⚽", {
     autoAlpha: 0
